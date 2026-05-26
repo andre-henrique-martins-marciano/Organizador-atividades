@@ -1,5 +1,3 @@
-![Sistema](todo.gif)
-
 ## Sistema de Gestão de Aluguéis
 
 Plataforma web desenvolvida com **Python**, **Django** e **Bootstrap** para tornar a gestão de aluguéis mais simples, organizada e eficiente.
