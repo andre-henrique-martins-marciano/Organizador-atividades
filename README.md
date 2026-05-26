@@ -1,61 +1,222 @@
-<div style="text-align:center"><img alt='Logo' src="icone.png" width="200" height="200"></div>
+<div align="center">
+  <img src="icone.png" alt="Logo" width="200" height="200">
+</div>
 
-# Gerenciador de Tarefas (ToDo App)
+# Sistema de Gestão de Aluguéis
 
-![Gerenciador de Tarefas](todo.gif)
+![Sistema](todo.gif)
 
 ## Descrição do Projeto
 
-O Gerenciador de Tarefas, ou ToDo App, é uma aplicação para criar e gerenciar sua lista de tarefas. Este projeto foi desenvolvido em Python com a biblioteca Flet, proporcionando uma experiência intuitiva e eficiente para organizar suas tarefas diárias. Inclui uso de banco de dados do SQLite3 para manter os dados salvos entre sessões.
+Plataforma web desenvolvida com **Python**, **Django** e **Bootstrap** para tornar a gestão de aluguéis mais simples, organizada e eficiente.
 
-## Índice
+O sistema auxilia no gerenciamento completo de locações, permitindo o controle de:
 
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Status do Projeto](#status-do-projeto)
-- [Contato](#contato)
+-  Imóveis
+-  Contratos
+-  Inquilinos
+-  Pagamentos
+-  Vencimentos
 
-## Instalação
+Com uma interface intuitiva e moderna, o projeto facilita a administração de imóveis e automatiza processos importantes do dia a dia.
 
-Para executar o Gerenciador de Tarefas, siga os passos abaixo:
+Além disso, o sistema utiliza banco de dados para persistência das informações, garantindo segurança e organização dos dados.
 
-1. Ative o ambiente virtual (recomendado):
+---
 
-   ```bash
-   source venv/bin/activate
-   ```
+# Índice
 
-2. Instale as dependências do projeto:
+- [ Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [ Funcionalidades](#-funcionalidades)
+- [ Instalação](#️-instalação)
+- [ Uso](#️-uso)
+- [ Estrutura do Projeto](#-estrutura-do-projeto)
+- [ Contribuição](#-contribuição)
+- [ Licença](#-licença)
+- [ Contato](#-contato)
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-3. Execute o arquivo principal `todo.py`:
+# Tecnologias Utilizadas
 
-   ```bash
-   python todo.py
-   ```
+- Python
+- Django
+- Bootstrap
+- HTML5
+- CSS3
+- JavaScript
+- SQLite3 / PostgreSQL
 
-## Uso
+---
 
-O Gerenciador de Tarefas oferece uma interface gráfica moderna e simples para adicionar, listar, marcar como concluídas e excluir tarefas. Você pode criar e organizar sua lista de tarefas de forma rápida e eficiente.
+#  Funcionalidades
 
-## Contribuição
+ Cadastro de imóveis  
+ Cadastro de inquilinos  
+ Gerenciamento de contratos  
+ Controle de pagamentos  
+ Controle de vencimentos  
+ Interface responsiva  
+ Painel administrativo  
+ Organização centralizada das locações  
+ Persistência de dados com banco de dados  
+ Interface intuitiva e moderna  
 
-Sinta-se à vontade para contribuir com este projeto. Se você encontrou um bug, tem uma sugestão ou deseja colaborar de alguma forma, siga estas diretrizes:
+---
 
-- Abra um problema (issue) para discutir a alteração ou problema.
-- Faça um fork do projeto.
-- Crie um branch com uma descrição significativa (por exemplo, `feature-nova-funcionalidade` ou `correcao-nome-do-bug`).
-- Envie suas alterações em um pull request.
+# 📸 Preview do Sistema
 
-### Contato
+```bash
+Em breve...
+```
 
-Para mais informações ou dúvidas sobre o projeto, entre em contato pelo e-mail: [contato@programadoraventureiro.com](mailto:contato@programadoraventureiro.com)
+---
 
-## Licença
+# Instalação
 
-Este projeto está licenciado sob a Licença Pública Geral GNU (GPL) - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+Siga os passos abaixo para executar o projeto localmente:
+
+## Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+## Acesse a pasta do projeto
+
+```bash
+cd seu-repositorio
+```
+
+## Crie um ambiente virtual
+
+```bash
+python -m venv venv
+```
+
+## Ative o ambiente virtual
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+##  Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+##  Execute as migrações
+
+```bash
+python manage.py migrate
+```
+
+##  Inicie o servidor
+
+```bash
+python manage.py runserver
+```
+
+---
+
+# Uso
+
+O sistema oferece uma interface simples e eficiente para gerenciar imóveis, contratos e pagamentos.
+
+Com ele é possível:
+
+- Cadastrar imóveis
+- Registrar inquilinos
+- Gerenciar contratos
+- Controlar pagamentos
+- Acompanhar vencimentos
+- Administrar informações através do painel do Django
+
+---
+
+# Painel Administrativo
+
+Crie um superusuário:
+
+```bash
+python manage.py createsuperuser
+```
+
+Acesse:
+
+```bash
+http://127.0.0.1:8000/admin
+```
+
+---
+
+# Estrutura do Projeto
+
+```bash
+ sistema-aluguel
+ ┣  app
+ ┣  templates
+ ┣  static
+ ┣  media
+ ┣  manage.py
+ ┣  requirements.txt
+ ┗  README.md
+```
+
+---
+
+# Objetivo do Projeto
+
+O objetivo deste sistema é facilitar o gerenciamento de locações, reduzindo processos manuais e melhorando a organização das informações relacionadas aos imóveis e contratos.
+
+---
+
+# Contribuição
+
+Sinta-se à vontade para contribuir com este projeto.
+
+## Como contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch:
+
+```bash
+git checkout -b minha-feature
+```
+
+3. Faça suas alterações e commit:
+
+```bash
+git commit -m "Minha nova feature"
+```
+
+4. Faça o push:
+
+```bash
+git push origin minha-feature
+```
+
+5. Abra um Pull Request
+
+---
+
+# Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+# Contato
+
+Desenvolvido por **André Martins** 🚀
+
+📧 contato@programadoraventureiro.com
