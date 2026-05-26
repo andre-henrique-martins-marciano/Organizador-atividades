@@ -1,12 +1,6 @@
-<div align="center">
-  <img src="icone.png" alt="Logo" width="200" height="200">
-</div>
-
-# Sistema de Gestão de Aluguéis
-
 ![Sistema](todo.gif)
 
-## Descrição do Projeto
+## Sistema de Gestão de Aluguéis
 
 Plataforma web desenvolvida com **Python**, **Django** e **Bootstrap** para tornar a gestão de aluguéis mais simples, organizada e eficiente.
 
