@@ -20,8 +20,8 @@ Além disso, o sistema utiliza banco de dados para persistência das informaçõ
 
 - [ Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [ Funcionalidades](#-funcionalidades)
-- [ Instalação](#️-instalação)
-- [ Uso](#️-uso)
+- [ Instalação](-instalação)
+- [ Uso](-uso)
 - [ Estrutura do Projeto](#-estrutura-do-projeto)
 - [ Contribuição](#-contribuição)
 - [ Licença](#-licença)
@@ -201,14 +201,17 @@ git push origin minha-feature
 
 ---
 
-# Licença
+## Autor
 
-Este projeto está sob a licença MIT.
+**André Henrique Martins Marciano**
+
+LinkedIn: [https://www.linkedin.com/in/andre-h-martins-marciano/](https://www.linkedin.com/in/andre-h-martins-marciano/)
 
 ---
 
-# Contato
+## Licença
 
-Desenvolvido por **André Martins** 🚀
+MIT License
 
-📧 contato@programadoraventureiro.com
+---
+
