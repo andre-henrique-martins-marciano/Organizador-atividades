@@ -56,7 +56,7 @@ Além disso, o sistema utiliza banco de dados para persistência das informaçõ
 
 ---
 
-# 📸 Preview do Sistema
+# Preview do Sistema
 
 ```bash
 Em breve...
